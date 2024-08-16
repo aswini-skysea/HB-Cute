@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "e6d1f09120e17a4372fe022dde88511b")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI",)
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
@@ -81,7 +81,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION2", None)
+STRING1 = getenv("STRING_SESSION2", "BQFpIMIAwcW2f2dxsOjPW85YtBK9FHvobnYqqvHOQWN_QOB2qdAfYW1atKHKkYUTqtRNUC7mIWpqS1NClflpBtYgQv6RzPVJ8IYvx5YEbRtmUwfd2IVIFydJzndmLidzdYrCUPoQ-Wjo3P1CO7l98NWZ6IsdGO6o8dFcOoICTA8Xqn-lkl-FM3CtU4AzroZl27-n-Dx1AIo-mz6Wwx1ec7uO1GVhE8nRk-DLltPC77MldVk20Qjqt3EMbFoBTS-4HxnjeqGUaoTGh0xiPFT0i2F5FnVVTiR5GRnqdV-odUV7B7HYprmEUIUuTFY6qFV51hvBhUxr8I-PxBaw5zcpLHtVuiHZsAAAAAGaGrhtAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
