@@ -9,6 +9,6 @@ COPY . /app/
 WORKDIR /app/
 
 RUN pip3 install --no-cache-dir --upgrade pip
-RUN pip3 install --no-cache-dir -U -r requirements.txt
+RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 
 CMD bash start
