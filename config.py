@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID","8045459"))
-API_HASH = getenv("API_HASH", "e6d1f09120e17a4372fe022dde88511b")
+API_ID = int(getenv("API_ID","26582881"))
+API_HASH = getenv("API_HASH", "eec3eb9a652b23ab62df08a7885b2793")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-OWNER_USERNAME = getenv("OWNER_USERNAME","rajeshrakis")
-BOT_USERNAME = getenv("BOT_USERNAME", "thedakkidaikathaval_bot")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Kudimagazh")
+BOT_USERNAME = getenv("BOT_USERNAME", "HeartBeatTunes_bot")
 BOT_NAME = getenv("BOT_NAME", "𝞖𝘌𝘈𝘙𝘛𝞑𝘌𝘈𝘛𝂬♡𝂬𝘿𝘙𝘜𝘎𝘡")
 ASSUSERNAME = getenv("ASSUSERNAME", "ice_babygirl")
 EVALOP = list(map(int, getenv("EVALOP", "5059737154").split()))
@@ -28,7 +28,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1001735663878"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001735663878"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1281282633))
+OWNER_ID = int(getenv("OWNER_ID", 7059913153))
 
 ## Fill these variables if you're deploying on heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
