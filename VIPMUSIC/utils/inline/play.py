@@ -557,8 +557,6 @@ def panel_markup_4(_, vidid, chat_id, played, dur):
             InlineKeyboardButton(
                 text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
-        ],
-        [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="↺", callback_data=f"ADMIN Replay|{chat_id}"),
         ],
